@@ -1,0 +1,75 @@
+<!doctype html>
+
+<!--
+This page looks quite confusing. 
+It would be much better to use semantic HTML to structure this code. 
+Let’s fix this mess!
+(Hints are provided below some elements to help you out.)
+-->
+
+<html lang="en">
+  <head>
+    <title>HTML Basics Excercise</title>
+    <meta charset="UTF-8" />
+  </head>
+  <!-- Someone forgot to wrap the content of our webpage with an HTML element,
+	which one was it again? -->
+  <header>
+    <div>
+      <div>Jane Doe</div>
+      <!-- Which elements could be used to link to parts of the webpage,
+		which appear below? -->
+      <header id="nav">
+        <h1>About Me</h1>
+        <h2>Contact</h2>
+        <h3>Skillset</h3>
+      </header>
+    </div>
+    <!-- Looks like the following part is the central content of our webpage. -->
+    <div>
+      <main id="about-me">
+        <h2>About me</h2>
+        <main>
+          <article>
+          Hi there! Welcome to my personal website. Here is gathered the most
+          important information about me. If you want to work with me or get to
+          know me, please don't hesitate to get in contact.
+          </main>
+        <!-- What element could be used to combine an image with a descriptive caption? -->
+        </article>
+        
+          <img
+            src="https://plus.unsplash.com/premium_photo-1671379041175-782d15092945?q=80&w=1320&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D="
+            />
+          <div>
+            A random fruit, because I would like to maintain my privacy and let
+            my code speak for me, instead of images.
+          </div>
+        </main>
+
+      <div id="contact">
+        <h2>Contact</h2>
+        <!-- When clicking on these element, nothing happens! But I want to be redirected to the other websites. Why is it not working? -->
+        <a href="https://github.com">GitHub</a>
+        <a href="https://de.linkedin.com/">LinkedIn</a>
+        <a href="https://codesandbox.io/">CodeSandbox</a>
+      </div>
+
+      <section id="skills">
+        <h2>Skillset</h2>
+        <!-- This part could use some bulletpoint to be more structured. -->
+        <p>
+          <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Painting rainbows</li>
+          <li>Party</li>
+          </ul>
+          
+        </p>
+      </section>
+    </div>
+  </header>
+</html>
