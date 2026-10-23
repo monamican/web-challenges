@@ -6,18 +6,19 @@
 
 body {
   font-family: system-ui;
+  border-color: black;
 }
 
 .pinkbox {
   background-color: pink;
-  padding: 15px;
+  border: 5px solid;
   border-radius: 10px;
   border-color: blue;
 }
 
 /* Put a selector here to select div elements (see index.html). */
-SELECTOR HERE {
-  font-family: cursive;
+div {
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 8px;
 
   /* Set the height and the width of the box to 150px. */
