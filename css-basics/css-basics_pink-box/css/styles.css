@@ -8,6 +8,13 @@ body {
   font-family: system-ui;
 }
 
+.pinkbox {
+  background-color: pink;
+  padding: 15px;
+  border-radius: 10px;
+  border-color: blue;
+}
+
 /* Put a selector here to select div elements (see index.html). */
 SELECTOR HERE {
   font-family: cursive;
